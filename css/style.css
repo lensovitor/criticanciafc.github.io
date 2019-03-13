@@ -1,0 +1,101 @@
+body {
+ font-family: 'Anton', sans-serif;
+ padding: 0;
+ margin: 0;
+ height: 100%;
+ width: 100%;
+ background-image: url("/img/fundo.png");
+}
+
+.alightcontent{
+  margin:0 auto;
+  width: 80%;
+  height: 100%;
+  background-color: green;
+}
+/*START HEADER*/
+li {
+  display: inline;
+  text-decoration: none;
+  color:black;
+}
+a:link,a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+header{
+  width: 100%;
+  height: 120px;
+}
+.logoapp{
+  height: 100%;
+  width: 10%;
+  background-color: #333333;
+  float: left;
+}
+.menutop{
+  height: 100%;
+  width: 90%;
+  float: left;
+}
+.liNav{
+  margin-right: 150px;
+  margin-left: 22px;
+  cursor:pointer;
+}
+.liNav:hover{
+  transition: 0.2s;
+  color:red;
+  border-bottom: 2px solid blue;
+}
+.centralize{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centralize-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.menuupper{
+   margin-top: 45px;
+}
+/*END HEADER*/
+#conteudo{
+  width: 1250px;
+  height: 475px;
+  align-items: center;
+  background: url("../img/fundo.png")no-repeat center top;
+  margin-left: 50px;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*FOOTER*/
+
+footer.page-footer {
+  margin-top: 0 !important;
+}
+
+footer .titulo {
+  color: #7b7967;
+  font-family: 'Anton', sans-serif;
+  font-size: 23px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+footer p {
+  color: #7b7967;
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+}
