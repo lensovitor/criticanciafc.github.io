@@ -6,7 +6,25 @@ body {
  width: 100%;
  background-image: url("/img/fundo.png");
 }
+.joggol{
+  margin-top: auto;
+  margin-left: auto;
+}
+.jogzag1{  
+  width: 33%;
+  float: left;
+}
+.jogzag2{  
+  width: 33%;
+  float: left;
+}
+.jogzag3{  
+  width: 33%;
+  float: right;
+}
+.contato{
 
+}
 .alightcontent{
   margin:0 auto;
   width: 80%;
@@ -60,6 +78,18 @@ header{
   align-items: center;
   justify-content: center;
 }
+.menuupper{
+   margin-top: 45px;
+}
+/*END HEADER*/
+
+/* Alinhamento Elenco - START*/
+
+.jogadores{
+  text-align: center;
+}
+/* Alinhamento Elenco - END*/
+
 
 /* Alinhamento Videos - START*/
 
@@ -74,17 +104,7 @@ header{
 }
 /* Alinhamento Videos - END*/
 
-/* Alinhamento Elenco - START*/
 
-.jogadores{
-  text-align: center;
-}
-/* Alinhamento Elenco - END*/
-
-.menuupper{
-   margin-top: 45px;
-}
-/*END HEADER*/
 #conteudo{
   width: 1250px;
   height: 475px;
@@ -102,10 +122,11 @@ header{
 /*FOOTER*/
 
 footer.page-footer {
-  margin-top: 0 !important;
+  margin-top: auto !important;
 }
 
 footer .titulo {
+  margin-top: auto !important;
   color: #7b7967;
   font-family: 'Anton', sans-serif;
   font-size: 23px;
