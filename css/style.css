@@ -74,6 +74,13 @@ header{
 }
 /* Alinhamento Videos - END*/
 
+/* Alinhamento Elenco - START*/
+
+.jogadores{
+  text-align: center;
+}
+/* Alinhamento Elenco - END*/
+
 .menuupper{
    margin-top: 45px;
 }
