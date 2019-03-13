@@ -60,6 +60,20 @@ header{
   align-items: center;
   justify-content: center;
 }
+
+/* Alinhamento Videos - START*/
+
+.videos{
+  text-align: center;
+}
+.videos > iframe{
+    background: black;
+    border: none;
+    height: 450px;
+    width: 900px;
+}
+/* Alinhamento Videos - END*/
+
 .menuupper{
    margin-top: 45px;
 }
